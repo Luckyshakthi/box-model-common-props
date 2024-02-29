@@ -588,7 +588,7 @@ margin: 1 rem 0;
         - clear any floats
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
