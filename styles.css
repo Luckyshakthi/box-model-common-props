@@ -381,7 +381,7 @@ box-shadow:var(--box-shadow-sm);
   display: block;
   width: 200px;
   height: auto;
-  margin:0 auto;  
+  margin: 0 auto;  
   filter:var(--filter-shadow-sm);
 }
 
@@ -400,12 +400,12 @@ box-shadow:var(--box-shadow-sm);
 
 /* For the div in the section, let's make a circle. It will be like a toy ball for our corgi */
 #section3 div{
-    height: 100px;
-    width: 100px;
+    height:100px;
+    width:100px;
     background-color: var(--dk-blue);
-    border-radius: 50%;
-    margin: 0 0 16px 32px;
-    position: relative;
+    border-radius:50%;
+    margin:0 0 16px 32px;
+    position:relative;
     z-index: 0;
     box-shadow: var(--box-shadow-sm);
 }
@@ -424,6 +424,16 @@ box-shadow:var(--box-shadow-sm);
         - move this to the right from its original location by 25px
 */
 #section3 div::after{
+    content: "";
+    display: block;
+    width: 50 px;
+    height: 50px;
+    background-color: var(--lt-blue);
+    border-radius: 50%;
+    position:relative;
+    z-index: 2;
+    top: -50px;
+    left:25 px;
 }
 
 
