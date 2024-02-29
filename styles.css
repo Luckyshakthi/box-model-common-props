@@ -426,14 +426,14 @@ box-shadow:var(--box-shadow-sm);
 #section3 div::after{
     content: "";
     display: block;
-    width: 50 px;
-    height: 50px;
+    width:50px;
+    height:50px;
     background-color: var(--lt-blue);
     border-radius: 50%;
     position:relative;
     z-index: 2;
     top: -50px;
-    left:25 px;
+    left:25px;
 }
 
 
@@ -455,6 +455,7 @@ box-shadow:var(--box-shadow-sm);
             - left: 0
 */
 #section4 p:last-of-type{
+margin: 1 rem 0;
 
 }
 
@@ -492,6 +493,7 @@ box-shadow:var(--box-shadow-sm);
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+    background:var(--lt-blue) center url ("images/puppy-photo.jpg");
     
 }
 
